@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./animate.css/animate.min.css" />
+  </head>
+  <body>
+    <div class="all">
+      <header>
+        <div class="my-box"></div>
+        <div class="my-box1">
+          <div class="a">
+            <div class="a1">
+              <a href="#"><img src="./photo/logo.png" alt="logo" /></a>
+            </div>
+            <div class="a2">
+              <ul>
+                <li><a href="#">محصولات</a></li>
+                <li><a href="#">درباره ما</a></li>
+                <li><a href="#">دستور پخت</a></li>
+                <li><a href="#">آووکادو نامه</a></li>
+                <li><a href="#">موقعیت شغلی</a></li>
+                <li><a href="#">همکاری با ما</a></li>
+                <li><a href="#">تماس با ما</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="b">
+            <div class="b1">
+              <input class="txt" type="text" placeholder="جستجو" />
+              <input class="sub" type="submit" />
+            </div>
+            <ul class="aval">
+              <li><a href="#">زبان</a></li>
+              <ul>
+                <li><a href="#">FA</a></li>
+                <li><a href="#">EN</a></li>
+                <li><a href="#">AR</a></li>
+                <li><a href="#">DE</a></li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div class="main">
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./photo/banner_kolazh_HONEYQ.jpeg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./photo/banner_kolazh_CHEDDARSPICY.jpeg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./photo/banner_kolazh_CAESAR.jpeg" />
+          </div>
+        </div>
+      </div>
+      <!-- Swiper JS -->
+      <script src="./swiper/swiper-bundle.min.js"></script>
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          effect: "fade",
+          fadeEffect: {
+            crossFade: true,
+          },
+          loop: true,
+          autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+          },
+        });
+      </script>
+    </div>
+
+    <div class="section">
+      <div class="asli">
+        <h2>محصولات</h2>
+      </div>
+      <div class="box">
+        <!-- Swiper -->
+        <div class="swiper mySwiper1">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <figure>
+                <a href="#">
+                  <img src="./photo/1.jpg" alt="" />
+                </a>
+                <figcaption><a href="#">بیبر ترکی</a></figcaption>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <a href="#">
+                  <img src="./photo/2.jpg" alt="" />
+                </a>
+                <figcaption><a href="#">برگر اسپایسی</a></figcaption>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <a href="#">
+                  <img src="./photo/3.jpg" alt="" />
+                </a>
+                <figcaption><a href="#">هانی کیو</a></figcaption>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <a href="#">
+                  <img src="./photo/4.jpg" alt="" />
+                </a>
+                <figcaption><a href="#">چدار چیلی</a></figcaption>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <a href="#">
+                  <img src="./photo/5.jpg" alt="" />
+                </a>
+                <figcaption><a href="#">سس سزار آووکادو</a></figcaption>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <a href="#">
+                  <img src="./photo/6.jpg" alt="" />
+                </a>
+                <figcaption><a href="#">فرانسوی</a></figcaption>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <a href="#">
+                  <img src="./photo/7.jpg" alt="" />
+                </a>
+                <figcaption><a href="#">گوجه آووکادو</a></figcaption>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <a href="#">
+                  <img src="./photo/8.jpg" alt="" />
+                </a>
+                <figcaption><a href="#">هات بیبر</a></figcaption>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <a href="#">
+                  <img src="./photo/9.jpg" alt="" />
+                </a>
+                <figcaption><a href="#">هالو هات</a></figcaption>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <a href="#">
+                  <img src="./photo/10.jpg" alt="" />
+                </a>
+                <figcaption><a href="">مایوکادو پنیر</a></figcaption>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <a href="#">
+                  <img src="./photo/11.jpg" alt="" />
+                </a>
+                <figcaption><a href="#">خردل باربیکیو </a></figcaption>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <a href="#">
+                  <img src="./photo/12.jpg" alt="" />
+                </a>
+                <figcaption><a href="#">چاشنی ایتالیایی</a></figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next">
+          <img src="./photo/right-arrow.jpg" alt="" class="next" />
+        </div>
+        <div class="swiper-button-prev">
+          <img src="./photo/left-arrow.jpg" alt="" class="prev" />
+        </div>
+        <div class="swiper-pagination"></div>
+        <script src="./swiper/swiper-bundle.min.js"></script>
+        <script>
+          var swiper = new Swiper(".mySwiper1", {
+            slidesPerView: 5,
+            spaceBetween: 15,
+            freeMode: true,
+            pagination: {
+              clickable: true,
+            },
+            loop: true,
+            autoplay: {
+              delay: 3000,
+              disableOnInteraction: false,
+            },
+            navigation: {
+              nextEl: ".next",
+              prevEl: ".prev",
+            },
+          });
+        </script>
+      </div>
+    </div>
+
+    <div class="contain">
+      <div class="contain1">
+        <div class="containr">
+          <img src="./photo/avo-woman-chef-01.png" alt="" />
+        </div>
+        <div class="containl">
+          <div class="a">
+            <strong>زنان موفق، سفیر برند فیلفیل</strong> زنان نقش مهمی را در هر
+            جامعه ایفا می کنند که در تربیت نسل بعدی هر کشور تعیین کننده هستند.
+          </div>
+          <div class="b"><a href="#">ادامه مطلب</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="item1">
+        <h2>دستور پخت</h2>
+        <ul>
+          <li>
+            <a href="#"
+              ><figure>
+                <img src="./photo/a.png" alt="" />
+                <figcaption>
+                  <h2>شنیسل مرغ</h2>
+                  <span>مشاهده</span>
+                  <div>
+                    <div class="a">
+                      <img src="./photo/eat-icon.png" alt="" />
+                      <span>2 نفر</span>
+                    </div>
+                    <div class="b">
+                      <img src="./photo/clock-icon.png" alt="" />
+                      <span>30دقیقه</span>
+                    </div>
+                  </div>
+                </figcaption>
+              </figure></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><figure>
+                <img src="./photo/b.jpg" alt="" />
+                <figcaption>
+                  <h2>اووکادو سالسا</h2>
+                  <span>مشاهده</span>
+                  <div>
+                    <div class="a">
+                      <img src="./photo/eat-icon.png" alt="" />
+                      <span>1 نفر</span>
+                    </div>
+                    <div class="b">
+                      <img src="./photo/clock-icon.png" alt="" />
+                      <span>20دقیقه</span>
+                    </div>
+                  </div>
+                </figcaption>
+              </figure></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><figure>
+                <img src="./photo/c.jpg" alt="" />
+                <figcaption>
+                  <h2>حمص اووکادو</h2>
+                  <span>مشاهده</span>
+                  <div>
+                    <div class="a">
+                      <img src="./photo/eat-icon.png" alt="" />
+                      <span>2 نفر</span>
+                    </div>
+                    <div class="b">
+                      <img src="./photo/clock-icon.png" alt="" />
+                      <span>60دقیقه</span>
+                    </div>
+                  </div>
+                </figcaption>
+              </figure></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><figure>
+                <img src="./photo/d.jpg" alt="" />
+                <figcaption>
+                  <h2>شیک اووکادو و شکلات</h2>
+                  <span>مشاهده</span>
+                  <div>
+                    <div class="a">
+                      <img src="./photo/eat-icon.png" alt="" />
+                      <span>2 نفر</span>
+                    </div>
+                    <div class="b">
+                      <img src="./photo/clock-icon.png" alt="" />
+                      <span>10دقیقه</span>
+                    </div>
+                  </div>
+                </figcaption>
+              </figure></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><figure>
+                <img src="./photo/e.jpg" alt="" />
+                <figcaption>
+                  <h2>پنینی مرغ و پستو</h2>
+                  <span>مشاهده</span>
+                  <div>
+                    <div class="a">
+                      <img src="./photo/eat-icon.png" alt="" />
+                      <span>2 نفر</span>
+                    </div>
+                    <div class="b">
+                      <img src="./photo/clock-icon.png" alt="" />
+                      <span>40دقیقه</span>
+                    </div>
+                  </div>
+                </figcaption>
+              </figure></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><figure>
+                <img src="./photo/f.jpg" alt="" />
+                <figcaption>
+                  <h2>پنکیک اووکادو</h2>
+                  <span>مشاهده</span>
+                  <div>
+                    <div class="a">
+                      <img src="./photo/eat-icon.png" alt="" />
+                      <span>2 نفر</span>
+                    </div>
+                    <div class="b">
+                      <img src="./photo/clock-icon.png" alt="" />
+                      <span>30دقیقه</span>
+                    </div>
+                  </div>
+                </figcaption>
+              </figure></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><figure>
+                <img src="./photo/g.jpg" alt="" />
+                <figcaption>
+                  <h2>نودل میگو</h2>
+                  <span>مشاهده</span>
+                  <div>
+                    <div class="a">
+                      <img src="./photo/eat-icon.png" alt="" />
+                      <span>2 نفر</span>
+                    </div>
+                    <div class="b">
+                      <img src="./photo/clock-icon.png" alt="" />
+                      <span>30دقیقه</span>
+                    </div>
+                  </div>
+                </figcaption>
+              </figure></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><figure>
+                <img src="./photo/h.png" alt="" />
+                <figcaption>
+                  <h2>سالاد پاستای ایتالیایی</h2>
+                  <span>مشاهده</span>
+                  <div>
+                    <div class="a">
+                      <img src="./photo/eat-icon.png" alt="" />
+                      <span>2 نفر</span>
+                    </div>
+                    <div class="b">
+                      <img src="./photo/clock-icon.png" alt="" />
+                      <span>30دقیقه</span>
+                    </div>
+                  </div>
+                </figcaption>
+              </figure></a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="news">
+      <div class="new1">
+        <h2>آووکادو نامه</h2>
+        <ul>
+          <li>
+            <div>
+              <a href="#"> <img src="./photo/x1.jpg" alt="" /></a>
+              <div>
+                <a href="#">معرفی فیلفیل</a>
+                <div>
+                  <p>
+                    این مجموعه برای اولین بار موفق به تولید 14 نوع سس لذیذ بر
+                    پایه ی میوه ی مغذی آووکادو شده و دارای مزه های منحصر به فرد
+                    برای طعم بخشیدن به غذاست
+                  </p>
+                </div>
+                <div class="border"><a href="#">ادامه مطلب</a></div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="opp">
+              <a href="#"><img src="./photo/x2.jpg" alt="" /></a>
+              <div>
+                <a class="opp" href="#">اتحاد آووکادوئی</a>
+                <div>
+                  <p class="opp">
+                    بازار جهانی آووکادو در ده سال گذشته شاهد رشد تصاعدی بوده است
+                    و مکزیک همچنان به عنوان صادرکننده برتر آووکادو در جهان تسلط
+                    دارد.
+                  </p>
+                </div>
+                <div class="border"><a href="#">ادامه مطلب</a></div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="#"><img src="./photo/x3.jpg" alt="" /></a>
+              <div>
+                <a href="#"> ارزشمندترین بازیکن در تغذیه ورزشی</a>
+                <div>
+                  <p>
+                    برخلاف تصور بسیاری از افراد، آووکادو میوه ای است که به حفظ
+                    اندام شما کمک میکند. این واقعیت که آووکادو حاوی چربی است،
+                    بسیاری را از خوردن آن منصرف می‌کند. این میوه سرشار از چربی
+                    خوب است و فواید دیگری نیز دارد که در ادامه به آن خواهیم
+                    پرداخت.
+                  </p>
+                </div>
+                <div class="border"><a href="#">ادامه مطلب</a></div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="opp">
+              <a href="#"><img src="./photo/x4.jpg" alt="" /></a>
+              <div>
+                <a class="opp" href="#">بیگ بنگ آووکادو </a>
+                <div>
+                  <p class="opp">
+                    در چندین سال اخیر با افزایش محبوبیت آووکادو و استفاده کردن
+                    از آن‌ها در هر دستور غذایی، شاید برای شما نیز سوال پیش آمده
+                    باشد که چرا این میوه تبدیل به یک فرهنگ غذایی شد؟
+                  </p>
+                </div>
+                <div class="border"><a href="#">ادامه مطلب</a></div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="#"><img src="./photo/x5.jpg" alt="" /></a>
+              <div>
+                <a href="#"> زنان شاغل</a>
+                <div>
+                  <p>
+                    جالب است بدانید در اوایل قرن بیستم، کار در کارخانه یک شغل
+                    مردانه تلقی می شد و تعداد کمی از زنان در این زمینه مشغول به
+                    کار بودند. ھنگامی که جنگ جھانی اول شروع شد، این وضعیت شروع
+                    به تغییر کرد. تعداد زنان شاغل در کارخانجات افزایش قابل توجھی
+                    داشت و این زنان چندین نقش را ایفا می کردند.
+                  </p>
+                </div>
+                <div class="border"><a href="#">ادامه مطلب</a></div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <footer>
+      <div class="end">
+        <div class="end1">
+          <div class="a">
+            <ul>
+              <li><a href="#">حریم خصوصی</a></li>
+              <li><a href="#">تماس با ما</a></li>
+              <li><a href="#">سوالات متداول</a></li>
+              <li><a href="#">همکاری با ما</a></li>
+            </ul>
+          </div>
+          <div class="b">
+            <div class="b1">
+              <ul>
+                <li>
+                  <a href="#"><img src="./photo/INSTAGRAM.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="./photo/WhatsApp.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="./photo/linkedin.png" alt="" /></a>
+                </li>
+              </ul>
+            </div>
+            <div class="b2">تمامی حقوق برای فیلفیل محفوظ است.</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

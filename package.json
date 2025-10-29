@@ -1,0 +1,19 @@
+{
+  "name": "filfil",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/style.scss css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "live-server": "^1.2.2",
+    "sass": "^1.90.0",
+    "swiper": "^11.2.10"
+  }
+}
